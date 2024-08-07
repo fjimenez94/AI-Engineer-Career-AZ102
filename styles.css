@@ -13,11 +13,12 @@ body {
 }
 
 header {
-    background: #ff69b4; // Hot pink background
-    color: white;
+    background: #c71585; /* Deeper shade of pink for more contrast */
+    color: #ffffff; /* Pure white text for better readability */
     padding: 1rem 0;
     text-align: center;
-    border-bottom: 4px solid #ff1493; // Deep pink border
+    border-bottom: 5px solid #8b0000; /* Dark red border for strong contrast */
+    text-shadow: 1px 1px 2px #000000; /* Black shadow to make text stand out */
 }
 
 main {
