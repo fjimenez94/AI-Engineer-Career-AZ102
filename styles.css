@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffe4e1; /* Light pink background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -15,6 +18,7 @@ header {
 }
 
 main {
+    flex: 1;
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -49,16 +53,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    border-top: 4px solid #ff1493; /* Deep pink border */
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-section {
-    background-color: #fff0f5; /* Lavender blush background for sections */
-    border-radius: 10px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    border-top: 4px solid #ff1493; /* D
