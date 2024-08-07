@@ -9,9 +9,6 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     line-height: 1.6;
     background-color: #ffe4e1; /* Light pink background */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 header {
@@ -23,7 +20,6 @@ header {
 }
 
 main {
-    flex: 1;
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
