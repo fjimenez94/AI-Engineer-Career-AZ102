@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     line-height: 1.6;
@@ -7,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 header {
@@ -53,4 +58,17 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    border-top: 4px solid #ff1493; /* D
+    border-top: 4px solid #ff1493; /* Deep pink border */
+    width: 100%;
+    bottom: 0;
+    position: sticky; /* Changed from 'absolute' to 'sticky' */
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+section {
+    background-color: #fff0f5; /* Lavender blush background for sections */
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
